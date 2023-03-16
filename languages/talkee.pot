@@ -1,0 +1,175 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Talkee\n"
+"POT-Creation-Date: 2023-03-16 02:35+0800\n"
+"PO-Revision-Date: 2023-03-16 02:12+0800\n"
+"Last-Translator: 白宦成 <bestony@linux.com>\n"
+"Language-Team: 白宦成 <bestony@linux.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: talkee.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: talkee.admin.class.php:24 talkee.admin.class.php:25
+#: talkee.admin.class.php:41
+msgid "Talkee"
+msgstr ""
+
+#: talkee.admin.class.php:42
+#, php-format
+msgid ""
+"If you need help, you can visit the <a href=\"%s\" "
+"target=\"_blank\">documentation</a> for more assistance."
+msgstr ""
+
+#: talkee.admin.class.php:68
+msgid "Post Type Settings"
+msgstr ""
+
+#: talkee.admin.class.php:75
+msgid "Post"
+msgstr ""
+
+#: talkee.admin.class.php:83
+msgid "Page"
+msgstr ""
+
+#: talkee.admin.class.php:91
+msgid "Site Settings"
+msgstr ""
+
+#: talkee.admin.class.php:98
+msgid "Site ID"
+msgstr ""
+
+#: talkee.admin.class.php:106
+msgid "Chain ID"
+msgstr ""
+
+#: talkee.admin.class.php:114
+msgid "Show AR Hash"
+msgstr ""
+
+#: talkee.admin.class.php:122
+msgid "Auth Methods"
+msgstr ""
+
+#: talkee.admin.class.php:130
+msgid "Language"
+msgstr ""
+
+#: talkee.admin.class.php:138
+msgid "Container Selector"
+msgstr ""
+
+#: talkee.admin.class.php:146
+msgid "CSS Overide"
+msgstr ""
+
+#: talkee.admin.class.php:201
+msgid ""
+"Post Type Setting can be used to enable the Talkee Comments according to "
+"different article types."
+msgstr ""
+
+#: talkee.admin.class.php:205
+msgid ""
+"Site settings allow you to configure the behavior of Talkee on your site, "
+"including the specific pages where comments are displayed and whether to "
+"show AR hash."
+msgstr ""
+
+#: talkee.admin.class.php:211
+msgid "Enable Talkee comments at the bottom of the post"
+msgstr ""
+
+#: talkee.admin.class.php:218
+msgid "Enable Talkee comments at the bottom of the page"
+msgstr ""
+
+#: talkee.admin.class.php:227
+#, php-format
+msgid ""
+"<p class=\"description\">The site ID for <a href=\"%s\">Talkee</a> can be "
+"found on the site management page that you registered with <a "
+"href=\"%s\">Talkee</a>. If you don’t have a site ID, you can visit the "
+"Talkee console to register a new site.</p>"
+msgstr ""
+
+#: talkee.admin.class.php:236
+#, php-format
+msgid ""
+"<p class=\"description\">The Chain ID for <a href=\"%s\">Talkee</a>. Default "
+"is  1</p>"
+msgstr ""
+
+#: talkee.admin.class.php:242
+msgid "Whether to show the on-chain tx link to the comment page"
+msgstr ""
+
+#: talkee.admin.class.php:244
+msgid ""
+"<p class=\"description\">Show the link to the Arweave transaction page if "
+"possible</p>"
+msgstr ""
+
+#: talkee.admin.class.php:261
+msgid ""
+"<p class=\"description\">Please select the payment wallet(s) you wish to use "
+"(multiple choices available)</p>"
+msgstr ""
+
+#: talkee.admin.class.php:267
+msgid "Simplified Chinese"
+msgstr ""
+
+#: talkee.admin.class.php:269
+msgid "Traditional Chinese"
+msgstr ""
+
+#: talkee.admin.class.php:271
+msgid "Janpanese"
+msgstr ""
+
+#: talkee.admin.class.php:273
+msgid "English"
+msgstr ""
+
+#: talkee.admin.class.php:275
+msgid "<p class=\"description\">Please select the default language.</p>"
+msgstr ""
+
+#: talkee.admin.class.php:283
+msgid "<p class=\"description\">Comment Container Selector.</p>"
+msgstr ""
+
+#: talkee.admin.class.php:291
+msgid ""
+"<p class=\"description\">CSS Override. you no need have a <code>style</code> "
+"tag outter.</p>"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://talkee.pando.im/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Own Web3 Commenting and Chat with Ethereum Login & Wallets"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pando.im"
+msgstr ""

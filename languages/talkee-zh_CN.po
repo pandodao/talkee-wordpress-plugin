@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Talkee\n"
+"POT-Creation-Date: 2023-03-16 03:28+0800\n"
+"PO-Revision-Date: 2023-03-16 03:28+0800\n"
+"Last-Translator: 白宦成 <bestony@linux.com>\n"
+"Language-Team: 白宦成 <bestony@linux.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: talkee.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: talkee.admin.class.php:24 talkee.admin.class.php:25
+#: talkee.admin.class.php:41
+msgid "Talkee"
+msgstr "Talkee"
+
+#: talkee.admin.class.php:42
+#, php-format
+msgid ""
+"If you need help, you can visit the <a href=\"%s\" "
+"target=\"_blank\">documentation</a> for more assistance."
+msgstr ""
+"如果需要帮助，可以访问<a href=\"%s\" target=\"_blank\">文档</a>获取更多的帮"
+"助。"
+
+#: talkee.admin.class.php:68
+msgid "Post Type Settings"
+msgstr "文章类型设置"
+
+#: talkee.admin.class.php:75
+msgid "Post"
+msgstr "文章"
+
+#: talkee.admin.class.php:83
+msgid "Page"
+msgstr "页面"
+
+#: talkee.admin.class.php:91
+msgid "Site Settings"
+msgstr "站点设置"
+
+#: talkee.admin.class.php:98
+msgid "Site ID"
+msgstr "站点 ID"
+
+#: talkee.admin.class.php:106
+msgid "Chain ID"
+msgstr "链 ID"
+
+#: talkee.admin.class.php:114
+msgid "Show AR Hash"
+msgstr "展示 AR 连接"
+
+#: talkee.admin.class.php:122
+msgid "Auth Methods"
+msgstr "验证方式"
+
+#: talkee.admin.class.php:130
+msgid "Language"
+msgstr "语言"
+
+#: talkee.admin.class.php:138
+msgid "Container Selector"
+msgstr "容器选择器"
+
+#: talkee.admin.class.php:146
+msgid "CSS Overide"
+msgstr "CSS 覆写"
+
+#: talkee.admin.class.php:201
+msgid ""
+"Post Type Setting can be used to enable the Talkee Comments according to "
+"different article types."
+msgstr "文章类型设置 可以根据需要实现为不同文章类型开启评论功能。"
+
+#: talkee.admin.class.php:205
+msgid ""
+"Site settings allow you to configure the behavior of Talkee on your site, "
+"including the specific pages where comments are displayed and whether to "
+"show AR hash."
+msgstr ""
+"站点设置允许您在站点上配置 Talkee 的行为，包括显示评论的特定页面以及是否显示 "
+"AR Hash。"
+
+#: talkee.admin.class.php:211
+msgid "Enable Talkee comments at the bottom of the post"
+msgstr "为文章开启底部的 Talkee 评论"
+
+#: talkee.admin.class.php:218
+msgid "Enable Talkee comments at the bottom of the page"
+msgstr "为页面开启底部的 Talkee 评论"
+
+#: talkee.admin.class.php:227
+#, php-format
+msgid ""
+"<p class=\"description\">The site ID for <a href=\"%s\">Talkee</a> can be "
+"found on the site management page that you registered with <a "
+"href=\"%s\">Talkee</a>. If you don’t have a site ID, you can visit the "
+"Talkee console to register a new site.</p>"
+msgstr ""
+"<p class=\"description\"> <a href=\"%s\">Talkee</a> 的站点 ID，你可以在 <a "
+"href=\"%s\">Talkee</a> 的管理控制面找到它。如果你没有站点 ID，则可以注册一"
+"个。</p>"
+
+#: talkee.admin.class.php:236
+#, php-format
+msgid ""
+"<p class=\"description\">The Chain ID for <a href=\"%s\">Talkee</a>. Default "
+"is  1</p>"
+msgstr ""
+"<p class=\"description\"><a href=\"%s\">Talkee</a>的链 ID。默认值为 1</p>"
+
+#: talkee.admin.class.php:242
+msgid "Whether to show the on-chain tx link to the comment page"
+msgstr "是否在评论页面上显示链上交易链接"
+
+#: talkee.admin.class.php:244
+msgid ""
+"<p class=\"description\">Show the link to the Arweave transaction page if "
+"possible</p>"
+msgstr ""
+"<p class=\"description\">如果开启此选项，显示指向Arweave交易页面的链接</p>"
+
+#: talkee.admin.class.php:261
+msgid ""
+"<p class=\"description\">Please select the payment wallet(s) you wish to use "
+"(multiple choices available)</p>"
+msgstr "<p class=\"description\">请选择您要使用的支付钱包（支持多选）</p>"
+
+#: talkee.admin.class.php:267
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#: talkee.admin.class.php:269
+msgid "Traditional Chinese"
+msgstr "繁体中文"
+
+#: talkee.admin.class.php:271
+msgid "Janpanese"
+msgstr "日本语"
+
+#: talkee.admin.class.php:273
+msgid "English"
+msgstr "英语"
+
+#: talkee.admin.class.php:275
+msgid "<p class=\"description\">Please select the default language.</p>"
+msgstr "<p class=\"description\">请选择默认语言。</p>"
+
+#: talkee.admin.class.php:283
+msgid "<p class=\"description\">Comment Container Selector.</p>"
+msgstr "<p class=\"description\">评论容器选择器。</p>"
+
+#: talkee.admin.class.php:291
+msgid ""
+"<p class=\"description\">CSS Override. you no need have a <code>style</code> "
+"tag outter.</p>"
+msgstr ""
+"<p class=\"description\">CSS 覆写，你不需要在外层添加 <code>style</code>标"
+"签。</p>"
+
+#. Plugin URI of the plugin/theme
+msgid "https://talkee.pando.im/"
+msgstr "https://talkee.pando.im/"
+
+#. Description of the plugin/theme
+msgid "Own Web3 Commenting and Chat with Ethereum Login & Wallets"
+msgstr "支持以太坊登录的 Web3 评论系统"
+
+#. Author of the plugin/theme
+msgid "Pando.im"
+msgstr "Pando.im"
+
+#. Author URI of the plugin/theme
+msgid "https://pando.im"
+msgstr "https://talkee.pando.im/"
+
+#~ msgid "Talkee Comment Plugin"
+#~ msgstr "Talkee 评论插件"
+
+#, php-format
+#~ msgid ""
+#~ "<p class=\"description\">The Chain ID for <a href=\"%s\">Talkee</a> can "
+#~ "be found on the site management page that you registered with <a "
+#~ "href=\"%s\">Talkee</a>. If you don’t have a Chain ID, you can visit the "
+#~ "Talkee console to register a new site.</p>"
+#~ msgstr ""
+#~ "<p class=\"description\"><a href=\"%s\">Talkee</a> 的链ID，默认为 1 </p>"
