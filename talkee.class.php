@@ -14,7 +14,7 @@ class Talkee {
 	}
 	/**
 	 * check should show talkee code in current page
-	 * 
+	 *
 	 * Two case need return true
 	 * 1. enable Post & current page is Post(by is_signle())
 	 * 2. enable Page & current page is Page(by is_page())
@@ -57,7 +57,7 @@ class Talkee {
 	function _commentHeader(){
 		  if($this->_should_show_talkee()){
 		  	echo '<div style="display:none;">';
-		  }		
+		  }
 	}
 	/**
 	 * get default options and build js for page.
@@ -78,7 +78,7 @@ class Talkee {
 
 		$ad_code = <<<EOF
  	<div id="comments"></div>
- 	<script src="https://cdn.jsdelivr.net/npm/@foxone/talkee-install-js@0.1.1/dist/ti.min.js"></script>
+ 	<script src="https://cdn.jsdelivr.net/npm/@foxone/talkee-install-js@latest/dist/ti.min.js"></script>
  <script>
    var config = $json;
    var res ={
