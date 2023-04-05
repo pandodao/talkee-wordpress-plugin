@@ -21,7 +21,7 @@
 - [ ] 📤 Export Comments
 
 ## Install Plugin from Source Code
-1. Click "[**Donwload**](https://github.com/pandodao/talkee-wordpress-plugin/archive/refs/heads/main.zip)" to Download Plugin file.
+1. Click "[**Download**](https://github.com/pandodao/talkee-wordpress-plugin/archive/refs/heads/main.zip)" to Download Plugin file.
 2. open your WordPress Admin, and Find **Plugins**, then Click **Add New **![](https://postimg.aliavv.com/m1/obb7r5.png)
 3. Upload the Zip you donwload before.
 4. Visit [Pando Developers Console](https://developers.pando.im/console/talkee) to create your own Talkee sites.
